@@ -32,9 +32,126 @@ wget https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master
 </code></pre>
     <p>程序分享站：<a href='https://gitee.com/gfdgd-xi/apt-packages-websize-program/issues'>https://gitee.com/gfdgd-xi/apt-packages-websize-program/issues</a></p>
     <p><a href='tree.html'>在这里查看 APT 源目录树</a></p>
-    <h3>更新时间：2023年3月19日 12:29:38</h3>
+    <h3>更新时间：2023年3月19日 19:33:29</h3>
     <hr/>
-    <h2>s390x-runtime-for-qemu_1.0.0_all.deb</h2>
+    <h2>spark-deepin-wine-runner_3.2.0_all.deb</h2>
+<p><b>下载链接：<a href='https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.2.0_all.deb'>https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.2.0_all.deb</a></b></p>
+<pre><code>Package: spark-deepin-wine-runner
+Version: 3.2.0
+Maintainer: gfdgd xi <3025613752@qq.com>
+Homepage: https://gitee.com/gfdgd-xi-org/deep-wine-runner
+Architecture: all
+Severity: serious
+Certainty: possible
+Check: binaries
+Type: binary, udeb
+Priority: optional
+Depends: python3, python3-pil, libc6, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar | unrar-free , unzip, python3-requests, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, python3-dbus, python3-pip, p7zip-full, sudo
+Recommends: winbind, wimtools, python3-pyqt5.qtwebengine
+Section: utils
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52, spark-deepin-wine-runner
+Installed-Size: 25856
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 3.2.0 更新内容：
+ ※1、Windows 应用适配工具新增系统资源显示；
+ ※2、Windows 应用适配工具使用 C++ 重写；
+ ※3、修复打包器（基于官方生态适配脚本）无法打开的问题；
+ ※4、新增运行库功能安装，以实现使用 Qemu User 跨架构运行 Wine 的功能（理论上支持 3a4000 了，但没试过）；
+ ※5、修复 Chroot 容器的一些问题；
+ ※6、修复在 Debian11 安装时缺失依赖 rar 的问题；
+ ※7、新增安装 box86、box64 的功能；
+ ※8、修复故障反馈功能错误的问题；
+ 9、修改程序内的部分网址；
+ 10、作者信息变更；
+ 11、支持禁用程序的多语言支持（默认禁用，因为是机翻的）；
+ 12、支持在程序本地翻译缺失的情况下自动机翻缺失语句；
+ 13、从此版本开始不再区分吾爱版、Spark 版和 UOS 版；
+ 14、新增下载量查询；
+ 15、更新程序公告；
+ 16、新增断网彩蛋。
+ 更新时间：2023年01月19日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+</code></pre>
+<h2>spark-deepin-wine-runner_3.2.0-2_all.deb</h2>
+<p><b>下载链接：<a href='https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.2.0-2_all.deb'>https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.2.0-2_all.deb</a></b></p>
+<pre><code>Package: spark-deepin-wine-runner
+Version: 3.2.0-2
+Maintainer: gfdgd xi <3025613752@qq.com>
+Homepage: https://gitee.com/gfdgd-xi-org/deep-wine-runner
+Architecture: all
+Severity: serious
+Certainty: possible
+Check: binaries
+Type: binary, udeb
+Priority: optional
+Depends: python3, python3-pil, libc6, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar | unrar-free , unzip, python3-requests, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, python3-dbus, python3-pip, p7zip-full, sudo
+Recommends: winbind, wimtools, python3-pyqt5.qtwebengine, qemu-user, binfmt-support, qemu-user-static
+Section: utils
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52, spark-deepin-wine-runner
+Installed-Size: 25856
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 3.2.0 更新内容：
+ ※1、Windows 应用适配工具新增系统资源显示；
+ ※2、Windows 应用适配工具使用 C++ 重写；
+ ※3、修复打包器（基于官方生态适配脚本）无法打开的问题；
+ ※4、新增运行库功能安装，以实现使用 Qemu User 跨架构运行 Wine 的功能（理论上支持 3a4000 了，但没试过）；
+ ※5、修复 Chroot 容器的一些问题；
+ ※6、修复在 Debian11 安装时缺失依赖 rar 的问题；
+ ※7、新增安装 box86、box64 的功能；
+ ※8、修复故障反馈功能错误的问题；
+ 9、修改程序内的部分网址；
+ 10、作者信息变更；
+ 11、支持禁用程序的多语言支持（默认禁用，因为是机翻的）；
+ 12、支持在程序本地翻译缺失的情况下自动机翻缺失语句；
+ 13、从此版本开始不再区分吾爱版、Spark 版和 UOS 版；
+ 14、新增下载量查询；
+ 15、更新程序公告；
+ 16、新增断网彩蛋。
+ 更新时间：2023年01月19日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+</code></pre>
+<h2>spark-deepin-wine-runner_3.2.0-1_all.deb</h2>
+<p><b>下载链接：<a href='https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.2.0-1_all.deb'>https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.2.0-1_all.deb</a></b></p>
+<pre><code>Package: spark-deepin-wine-runner
+Version: 3.2.0-1
+Maintainer: gfdgd xi <3025613752@qq.com>
+Homepage: https://gitee.com/gfdgd-xi-org/deep-wine-runner
+Architecture: all
+Severity: serious
+Certainty: possible
+Check: binaries
+Type: binary, udeb
+Priority: optional
+Depends: python3, python3-pil, libc6, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar | unrar-free , unzip, python3-requests, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, python3-dbus, python3-pip, p7zip-full, sudo
+Recommends: winbind, wimtools, python3-pyqt5.qtwebengine
+Section: utils
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52, spark-deepin-wine-runner
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52, spark-deepin-wine-runner
+Installed-Size: 25856
+Description: gfdgd xi、为什么您不喜欢熊出没和阿布呢 制作的 wine 运行器
+ 3.2.0 更新内容：
+ ※1、Windows 应用适配工具新增系统资源显示；
+ ※2、Windows 应用适配工具使用 C++ 重写；
+ ※3、修复打包器（基于官方生态适配脚本）无法打开的问题；
+ ※4、新增运行库功能安装，以实现使用 Qemu User 跨架构运行 Wine 的功能（理论上支持 3a4000 了，但没试过）；
+ ※5、修复 Chroot 容器的一些问题；
+ ※6、修复在 Debian11 安装时缺失依赖 rar 的问题；
+ ※7、新增安装 box86、box64 的功能；
+ ※8、修复故障反馈功能错误的问题；
+ 9、修改程序内的部分网址；
+ 10、作者信息变更；
+ 11、支持禁用程序的多语言支持（默认禁用，因为是机翻的）；
+ 12、支持在程序本地翻译缺失的情况下自动机翻缺失语句；
+ 13、从此版本开始不再区分吾爱版、Spark 版和 UOS 版；
+ 14、新增下载量查询；
+ 15、更新程序公告；
+ 16、新增断网彩蛋。
+ 更新时间：2023年01月19日
+ 作者：gfdgd xi、为什么您不喜欢熊出没和阿布呢
+</code></pre>
+<h2>s390x-runtime-for-qemu_1.0.0_all.deb</h2>
 <p><b>下载链接：<a href='https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/s390x-runtime-for-qemu/s390x-runtime-for-qemu_1.0.0_all.deb'>https://code.gitlink.org.cn/gfdgd_xi/apt-packages-program/raw/branch/master/s/s390x-runtime-for-qemu/s390x-runtime-for-qemu_1.0.0_all.deb</a></b></p>
 <pre><code>Package: s390x-runtime-for-qemu
 Version: 1.0.0
